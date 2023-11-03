@@ -4,7 +4,7 @@ import aiofiles
 
 from config import YOUTUBE_IMG_URL
 
-async def gen_thumb(videoid):
+async def get_thumb(videoid):
     if os.path.isfile(f"cache/Alone{videoid}_v4.png"): 
         return f"cache/Alone{videoid}_v4.png"
 

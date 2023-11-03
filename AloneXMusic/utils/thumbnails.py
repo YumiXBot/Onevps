@@ -2,6 +2,7 @@ import os
 import aiohttp
 import aiofiles
 
+from AloneXMusic import app
 from config import YOUTUBE_IMG_URL
 
 async def get_thumb(videoid):
